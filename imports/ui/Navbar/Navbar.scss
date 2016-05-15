@@ -1,0 +1,83 @@
+// @import 'imports/base-scss/base';
+
+.light {
+    font-weight: 400;
+}
+
+.navbar_custom {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #000;
+}
+
+.navbar_custom .navbar_brand {
+    font-weight: 700;
+}
+
+.navbar_custom .navbar_brand:focus {
+    outline: 0;
+}
+
+.navbar_custom .navbar_brand .navbar_toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar_custom .navbar_brand .navbar_toggle:focus,
+.navbar_custom .navbar_brand .navbar_toggle:active {
+    outline: 0;
+}
+
+.navbar_custom a {
+    color: #fff;
+}
+
+.navbar_custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar_custom .nav li a:hover {
+    outline: 0;
+    color: rgba(255,255,255,.8);
+    background-color: transparent;
+}
+
+.navbar_custom .nav li a:focus,
+.navbar_custom .nav li a:active {
+    outline: 0;
+    background-color: transparent;
+}
+
+.navbar_custom .nav li.active {
+    outline: 0;
+}
+
+.navbar_custom .nav li.active a {
+    background-color: rgba(255,255,255,.3);
+}
+
+.navbar_custom .nav li.active a:hover {
+    color: #fff;
+}
+
+@media(min-width:768px) {
+    .navbar_custom {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+    .top_nav_collapse {
+      padding: 0;
+      border-bottom: 1px solid rgba(255,255,255,.3);
+      background: #000;
+    }
+}

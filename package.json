@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "classnames": "^2.2.5",
+    "jquery-easing": "0.0.1",
     "meteor-node-stubs": "~0.2.0",
     "react": "^15.0.2",
     "react-bootstrap": "^0.29.4",

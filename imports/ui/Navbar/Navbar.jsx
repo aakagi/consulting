@@ -47,7 +47,7 @@ export default class Navbar extends Component {
               <i className="fa fa-bars"></i>
             </button>
             <a className="navbar-brand page-scroll" href="#page-top">
-              <span className={s.light}>Akagi</span> Consulting
+              <span className={s.light}>Akagi</span> Co
             </a>
           </div>
 

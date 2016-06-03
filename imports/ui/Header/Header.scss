@@ -11,7 +11,13 @@
 .video_container {
   margin: 10vh 25% 5vh 25%;
   min-height: 400px;
-  width: 50vw;
+  width: 50%;
+}
+@media(max-width:768px) {
+    .video_container {
+    margin: 10vh 3% 5vh 3%;
+    width: 94%;
+  }
 }
 
 .next_section_arrow_container {

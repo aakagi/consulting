@@ -60,13 +60,13 @@ export default class Content extends Component {
           If you&#39;re reading this now, that means you&#39;re an early visitor, so thanks for coming! 
           </p>
           <p>
-          This site still has a long way to go from here, with many more stylish components to come, but for now I&#39;m just sticking to writing out a simple blog post with <a onClick={() => this.setState({ showModal: true })}>links</a> for practicality.
+          This site still has a long way to go from here, with many more stylish components to come, but for now I&#39;m just sticking to writing out a simple blog post with <a href="https://s-media-cache-ak0.pinimg.com/736x/4d/ca/8a/4dca8ae6d72ba76c259e9dd73fa7868f.jpg" target="_blank">links</a> for practicality.
           </p>
           <p>
           The purpose of this post is to describe what kinds of clients I&#39;m looking for.
           </p>
           <p>
-          I&#39;m primarily looking for medium and large projects with a 3 to 9 month completion window. I&#39;m looking for ideas with high growth potential. What I&#39;m looking for isn&#39;t necessarily about how big your company is, but rather the type of client I&#39;m working with.
+          I&#39;m primarily looking for medium and large projects with a 2 to 6 month completion window. I&#39;m looking for ideas with high growth potential. What I&#39;m looking for isn&#39;t necessarily about how big your company is, but rather the type of client I&#39;m working with.
           </p>
           <p>
           I&#39;m looking to work with contrarians who look at the world from a unique perspective and want that to reflect in their work.

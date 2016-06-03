@@ -4,7 +4,7 @@
 }
 
 .blog_container {
-  padding: 0 18%;
+  padding: 0 22% 0 14%;
 
   .title_field {
     text-align: center;
@@ -45,3 +45,11 @@
   font-family: 'News Cycle';
 }
 
+@media(max-width:768px) {
+  .blog_container {
+    padding: 0 3%;
+  }
+  .blog_field {
+    padding: 20px;
+  }
+}

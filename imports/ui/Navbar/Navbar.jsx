@@ -9,7 +9,7 @@ import NavButton from './NavButton/NavButton';
 
 // Third Party Dependencies
 // NPM says that the jquery-easing library is extraneous but it isn't...
-import easing from 'jquery-easing';
+// import easing from 'jquery-easing';
 
 
 export default class Navbar extends Component {

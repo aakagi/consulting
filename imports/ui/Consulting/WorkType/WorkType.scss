@@ -1,0 +1,34 @@
+
+.work_type_container {
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+  
+  &:hover {
+    color: #00A0C6 !important;
+    text-decoration:none !important; 
+    cursor:pointer !important;
+    
+  }
+}
+
+
+.work_type {
+  border: 1px solid LightGray;
+  border-radius: 3px;
+  height: 350px;
+
+}
+
+.work_img {
+  margin: 30px;
+  height: 220px;
+  border: 1px solid LightGray;
+  border-radius: 3px;
+  background-color: rgba(0,0,0,0);
+}
+.work_name {
+  font-size: 16pt;
+  font-family: 'News Cycle';
+  text-align: center;
+}

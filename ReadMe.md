@@ -5,5 +5,5 @@ Boilerplate Meteor/React/SCSS
 3: meteor npm install
 4: meteor npm install --save react react-dom
 5: mv client/main.js client/main.jsx
-6: mkdir -p imports/{api,ui/{Header,Nav/{NavLogo,NavBtn},Footer},startup}
-7: meteor add fourseven:scss kadira:flow-router
+6: mkdir -p imports/{api,ui/{Header,Navbar/{},Footer},startup}
+7: meteor add kadira:flow-router

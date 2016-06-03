@@ -5,16 +5,23 @@
 }
 
 .black_bg {
-  background-color: #000;
-  background: url("images/black-bg.jpg") no-repeat center;
+  background-color: rgba(0,0,0,0);
 }
 
 .video_container {
-  margin: 10vh 25vw;
+  margin: 10vh 25% 5vh 25%;
   min-height: 400px;
   width: 50vw;
 }
 
 .next_section_arrow_container {
 
+}
+
+
+.meeting_btn {
+  text-align: center;
+  margin: 0 auto 5vh auto;
+  min-width: 100px;
+  max-width: 300px;
 }

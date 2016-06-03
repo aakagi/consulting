@@ -1,5 +1,5 @@
 {
-  "name": "TempReact",
+  "name": "AkagiConsulting",
   "private": true,
   "scripts": {
     "start": "meteor run"
@@ -9,11 +9,19 @@
     "meteor-node-stubs": "~0.2.0",
     "react": "^15.0.2",
     "react-bootstrap": "^0.29.4",
-    "react-dom": "^15.0.2"
+    "react-dom": "^15.0.2",
+    "react-mounter": "^1.2.0",
+    "react-router": "^2.4.1"
   },
   "cssModules": {
     "extensions": [
       "scss"
+    ],
+    "enableSassCompilation": [
+      "scss"
+    ],
+    "ignorePaths": [
+      "node_modules"
     ]
   }
 }

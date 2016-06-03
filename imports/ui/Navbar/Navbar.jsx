@@ -4,11 +4,12 @@ import classNames from 'classnames';
 // * Also requires bootstrap
 
 // Custom Dependencies
-import s from './Navbar.scss'
-import NavButton from './NavButton/NavButton'
+import s from './Navbar.scss';
+import NavButton from './NavButton/NavButton';
 
 // Third Party Dependencies
-import easing from 'jquery-easing'
+// NPM says that the jquery-easing library is extraneous but it isn't...
+import easing from 'jquery-easing';
 
 
 export default class Navbar extends Component {
@@ -30,7 +31,7 @@ export default class Navbar extends Component {
         var $anchor = $(this);
         $('html, body').stop().animate({
           scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
+        }, 800, 'easeInOutExpo');
         event.preventDefault();
       });
     });
@@ -47,7 +48,7 @@ export default class Navbar extends Component {
               <i className="fa fa-bars"></i>
             </button>
             <a className="navbar-brand page-scroll" href="#page-top">
-              <span className={s.light}>Akagi</span> Co.
+              <span className={s.light}>Akagi</span> Consulting
             </a>
           </div>
 
@@ -58,14 +59,14 @@ export default class Navbar extends Component {
               </li>
 
               <li>
-                <a className="page-scroll" href="">Blog</a>
+                <a className="page-scroll" href="/">Blog</a>
               </li>
               <li>
-                <a className="page-scroll" href="">Meeting</a>
+                <a className="" href="/meet">Meeting</a>
               </li>
             </ul>
           </div>
-
+          
         </div>
       </nav>
     )

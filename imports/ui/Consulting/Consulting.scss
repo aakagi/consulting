@@ -1,0 +1,47 @@
+
+.blog_field {
+  padding: 80px;
+}
+
+.blog_container {
+  padding: 0 18%;
+
+  .title_field {
+    text-align: center;
+    padding-bottom: 60px;
+    .title {
+      font-family: 'Oswald';
+      font-size: 40pt;
+    }
+    .author {
+      text-align: right;
+      margin-right: 50px;
+    }
+  }
+
+
+  .description {
+    text-align: left;
+    font-size: 14pt;
+    line-height: 1.8;
+    font-family: 'Oxygen';
+
+    p {
+      margin-bottom: 20px;
+      // text-indent: 30px;
+    }
+  }
+}
+
+
+.info_container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.info_text {
+  text-align: center;
+  font-size: 14pt;
+  font-family: 'News Cycle';
+}
+

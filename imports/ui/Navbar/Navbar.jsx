@@ -58,10 +58,7 @@ export default class Navbar extends Component {
               </li>
 
               <li>
-                <a className="page-scroll" href="/">Blog</a>
-              </li>
-              <li>
-                <a className="" href="/meet">Meeting</a>
+                <a className="page-scroll" href="#yield">Post</a>
               </li>
             </ul>
           </div>

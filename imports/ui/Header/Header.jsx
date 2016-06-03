@@ -20,7 +20,7 @@ export default class Header extends Component {
       <Grid fluid={true} componentClass={'header'} className={s.black_bg} id="page-top">
         <Row>
           <iframe className={s.video_container}
-            src="http://www.youtube.com/embed/-X-9bATg1Tw?autoplay=0">
+            src="http://www.youtube.com/embed/W25ZgG33xTU?autoplay=0">
           </iframe>
         </Row>
 

@@ -46,6 +46,7 @@ table {
 
 body {
   overflow-x: hidden;
+  background-color: #000;
   background: url("images/black-bg.jpg") no-repeat center fixed;
 }
 

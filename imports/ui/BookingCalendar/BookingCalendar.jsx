@@ -5,7 +5,7 @@ import s from './BookingCalendar.scss';
 
 export default class BookingCalendar extends Component {
   componentDidMount() {
-    var widget = function() {
+    var widgetFunc = function() {
       var widget = new TimekitBooking();
       widget.init({
         name: 'Alex Akagi',
@@ -114,8 +114,7 @@ export default class BookingCalendar extends Component {
     var rawHTML = '<script type="text/javascript" src="http://cdn.timekit.io/booking-js/v1/booking.min.js"></script>'
     var waitHTML = '' // Variable only gets called once external js is loaded
                   +'<script type="text/javascript">'
-                  +widget // Widget inline defines func widget
-                  +'widget()' // Inline call the variable
+                  + '(' +widgetFunc + ')()' // Widget inline defines and calls widgetFunc
                   +'</script>'
   
     bookingjs.append(rawHTML);
